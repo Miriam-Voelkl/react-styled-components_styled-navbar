@@ -15,6 +15,10 @@ const StyledList = styled.ul`
 
 const StyledLink = styled(Link)`
   text-decoration: none;
+  color: #35135c;
+  &:hover {
+    text-decoration: underline overline hotpink wavy;
+  }
 `;
 
 export default function App({ Component, pageProps }) {
